@@ -1,0 +1,82 @@
+.popup-container {
+  padding: 20px;
+  width: 350px;
+  font-family: 'Roboto';
+}
+
+.popup-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.payment-options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.option.disabled {
+  opacity: 0.5;
+}
+
+.summary-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.summary-text {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.confirm-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.disabled-btn {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.success-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.success-text {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.checkout-popup-container {
+  text-align: center; /* center the button */
+  margin-top: 15px;
+}
+
+.checkout-button {
+  padding: 10px 25px; /* button width via padding */
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block; /* prevents full width */
+}
+
+.checkout-button:hover {
+  background-color: #1e40af;
+}

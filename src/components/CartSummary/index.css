@@ -20,14 +20,3 @@
   color: #3e4c59;
   margin-bottom: 16px;
 }
-
-.checkout-button {
-  background-color: #0b69ff;
-  color: #ffffff;
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Roboto';
-}

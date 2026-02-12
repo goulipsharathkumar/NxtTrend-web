@@ -4,6 +4,7 @@ import Header from '../Header'
 import CartContext from '../../context/CartContext'
 import CartItem from '../CartItem'
 import CartSummary from '../CartSummary'
+import PaymentPopup from '../PaymentPopup'
 
 import './index.css'
 
@@ -12,6 +13,12 @@ const Cart = () => (
     {value => {
       const {cartList, removeAllCartItems} = value
       const isEmpty = cartList.length === 0
+
+      // FIX: Move total price calculation here
+      const totalPrice = cartList.reduce(
+        (acc, item) => acc + item.price * item.quantity,
+        0,
+      )
 
       return (
         <>
@@ -43,12 +50,28 @@ const Cart = () => (
                     Remove All
                   </button>
                 </div>
+
                 <ul className="cart-items-list">
                   {cartList.map(item => (
                     <CartItem key={item.id} cartItemDetails={item} />
                   ))}
                 </ul>
+
+                {/* Existing Cart Summary */}
                 <CartSummary />
+
+                {/* Payment Popup - FIXED version */}
+                <div className="checkout-popup-container">
+                  <PaymentPopup
+                    trigger={
+                      <button type="button" className="checkout-button">
+                        Checkout
+                      </button>
+                    }
+                    totalItems={cartList.length}
+                    totalPrice={totalPrice}
+                  />
+                </div>
               </div>
             )}
           </div>

@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .remove-all-btn {
@@ -49,4 +50,21 @@
   font-family: 'Roboto';
   font-weight: 500;
   cursor: pointer;
+}
+
+.checkout-button {
+  background-color: #2563eb;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.checkout-popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

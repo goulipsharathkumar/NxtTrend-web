@@ -15,9 +15,6 @@ const CartSummary = () => (
         <div className="cart-summary-container">
           <h1 className="order-total">Order Total: Rs {totalPrice}/-</h1>
           <p className="items-count">{totalItems} Items in cart</p>
-          <button type="button" className="checkout-button">
-            Checkout
-          </button>
         </div>
       )
     }}
