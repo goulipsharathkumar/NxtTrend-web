@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NxtTrend-web/static/css/main.552fb41a.chunk.css",
+    "main.js": "/NxtTrend-web/static/js/main.7fac57c6.chunk.js",
+    "main.js.map": "/NxtTrend-web/static/js/main.7fac57c6.chunk.js.map",
+    "runtime-main.js": "/NxtTrend-web/static/js/runtime-main.61e95b75.js",
+    "runtime-main.js.map": "/NxtTrend-web/static/js/runtime-main.61e95b75.js.map",
+    "static/css/2.ed92bf4e.chunk.css": "/NxtTrend-web/static/css/2.ed92bf4e.chunk.css",
+    "static/js/2.09574e2e.chunk.js": "/NxtTrend-web/static/js/2.09574e2e.chunk.js",
+    "static/js/2.09574e2e.chunk.js.map": "/NxtTrend-web/static/js/2.09574e2e.chunk.js.map",
+    "index.html": "/NxtTrend-web/index.html",
+    "static/css/2.ed92bf4e.chunk.css.map": "/NxtTrend-web/static/css/2.ed92bf4e.chunk.css.map",
+    "static/css/main.552fb41a.chunk.css.map": "/NxtTrend-web/static/css/main.552fb41a.chunk.css.map",
+    "static/js/2.09574e2e.chunk.js.LICENSE.txt": "/NxtTrend-web/static/js/2.09574e2e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61e95b75.js",
+    "static/css/2.ed92bf4e.chunk.css",
+    "static/js/2.09574e2e.chunk.js",
+    "static/css/main.552fb41a.chunk.css",
+    "static/js/main.7fac57c6.chunk.js"
+  ]
+}
