@@ -32,6 +32,14 @@ A full-featured E-Commerce Single Page Application with product listing, filters
 
 ---
 
+## 📸 Screenshots
+
+| Login | Products | Cart |
+|---|---|---|
+| ![Login](login.png) | ![Products](products.png) | ![Cart](cart.png) |
+
+---
+
 ## 📁 Project Structure
 
 ```
